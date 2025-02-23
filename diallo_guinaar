@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diallo Guinaar - Vente de Poulets à Dakar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .product p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .contact {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .contact a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        .payment-methods {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .payment-methods img {
+            width: 50px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Diallo Guinaar - Vente de Poulets à Dakar
+    </header>
+    <div class="container">
+        <div class="product">
+            <h2>Poulet 1,5 kg</h2>
+            <p>Prix: 3500 FCFA</p>
+        </div>
+        <div class="product">
+            <h2>Poulet 2 kg</h2>
+            <p>Prix: 4000 FCFA</p>
+        </div>
+        <div class="payment-methods">
+            <p>Méthodes de paiement acceptées:</p>
+            <img src="https://wave.sn/images/logo.png" alt="Wave">
+            <img src="https://www.orange-money.com/images/logo.png" alt="Orange Money">
+        </div>
+    </div>
+    <div class="contact">
+        <p>Pour commander, contactez-nous au <a href="tel:+221772005434">+221 77 200 54 34</a></p>
+        <p>Livraison partout sur Dakar</p>
+    </div>
+</body>
+</html>
